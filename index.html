@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>jishan Ahmmed</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body onload="myfunctin()">
+    <div id="center">
+        <div class="ring"></div>
+        <span id="span">loading...</span>
+    </div>
+    <div class="fast-div">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-brands fa-java"></i>
+                    <div class="logo-text"><span class="a">J</span>ishan <span class="a">A</span>hmmed</div>
+                </div>
+                <nav>
+                    <div class="togol">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <ul class="nav-bar">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+                <div class="container">
+                    <div class="my-pic">
+                        <img src="images/IMG_0479.png" alt="jishan ahamed">
+                    </div>
+                    <div class="hero-text">
+                        <h4>Hi &nbsp; I'am<span class="input"></span></h4>
+                        <h1>Jishan Ahmmed</h1>
+                        <p>To achieve great things, it's important to have a clear vision of what you want to accomplish. This vision should be supported by a set of well-defined goals that serve as milestones on your path to success. It's also important to develop a strong work ethic, to be resilient in the face of setbacks, and to be willing to take calculated risks.</p>
+                        <div class="btn-group">
+                            <a href="" class="btn">MY FACEBOOK</a>
+                        </div>
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                            <a href="#"><i class="fa-solid fa-compass"></i></a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="typed.js"></script>
+    <script>
+    var typed = new Typed('.input', {
+    strings: [
+        '&nbsp; Jishan.',
+        '&nbsp; Crazy Boy.',
+    ],
+    typeSpeed: 75,
+    backSpeed: 75,
+    loop: true
+});
+
+    var preloader = document.getElementById('center');
+    function myfunctin(){
+        preloader.style.display = 'none'
+    }
+
+    </script>
+
+</body>
+</html>
