@@ -280,7 +280,7 @@ nav .nav-bar li a:hover{
     nav .nav-bar{
         position: absolute;
         top: 90px;
-        right: -10%;
+        right: 0;
         bottom: 0;
         width: 48%;
         height: 240px;
