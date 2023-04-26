@@ -160,7 +160,7 @@ nav .nav-bar li a {
 }
 nav .nav-bar li a:hover{
     color: #ff5202fb;
-    transform: scale(1.1);
+    transform: scale(1.1) ;
     transition: 0.7s;
     box-shadow: 0px 0px 30px #0084ff transparent; 
     text-shadow: 0px 0px 30px #007ced;
